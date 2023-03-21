@@ -1,1 +1,1 @@
-Js-tutorial page
+Js-tutorial page.
