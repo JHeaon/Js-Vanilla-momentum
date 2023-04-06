@@ -12,7 +12,7 @@ Maybe you can mention me or this repo in the acknowledgements too
   <h1>Momentum</h1>
   
   <p>
-    Momentum is toy project 
+    Momentum is toy project to practicing to make somthing page using html, css, javascript
   </p>
   
   
