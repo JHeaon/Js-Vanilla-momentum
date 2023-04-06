@@ -1,25 +1,237 @@
-.hidden{
-    display: none;
+.hidden {
+  display: none;
 }
 
-img {
-    width: 100vw;
-    height: 100vh;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    z-index: -1;
-    opacity: 0.8;
+input {
+  border: none;
 }
 
-#clock {
-    font-size: 200px;
-    color: white;
-    text-align: center;
-
+html {
+  width: 100%;
+  height: 100%;
 }
 
 body {
-    text-align: center;
+  color: #fff;
+  font-family: "Alkatra", cursive;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: lighter;
+}
 
+.main-content {
+  /* font-family: "Gothic A1", sans-serif; */
+  height: 100%;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center; /* 수직 정렬 */
+  flex-direction: column; /* default: row */
+  justify-content: center; /* flex direction에 대해서 정렬방식 선택 */
+}
+
+#login-form input {
+  text-align: center;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  font-size: 2.5rem;
+  background-color: transparent;
+  color: #fff;
+  /* font-family: "Noto Serif KR", serif; */
+  font-family: "Alkatra", cursive;
+}
+
+#login-form input::placeholder {
+  color: rgb(223, 223, 223);
+  /* font-family: "Noto Serif KR", serif; */
+}
+
+#login-form input:focus {
+  outline: none;
+}
+
+#clock {
+  margin: 0px;
+  font-size: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#greeting {
+  margin: 0;
+  font-size: 3rem;
+}
+
+/* greetings content */
+.greetings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  z-index: -1;
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1090px;
+  width: 100%;
+  height: auto; /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+/* ellipsis css */
+
+#ellipsis-form {
+  position: static;
+}
+
+#ellipsis + label i {
+  width: 40px;
+  height: 40px;
+  border-radius: 25px;
+  line-height: 30px;
+  transition: all ease 0.8s;
+  margin-left: 10px;
+}
+
+#ellipsis[type="button"] {
+  display: none;
+}
+
+#ellipsis + label:hover i {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.4);
+  transform: rotate(90deg);
+}
+
+/* renameBtn */
+
+#renameBtn {
+  margin: 0 auto;
+  margin-left: 0.2rem;
+  width: 80px;
+  height: 30px;
+}
+
+#renameBtn input {
+  width: 100%;
+  height: 100%;
+  font-size: 0.9rem;
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: rgba(255, 255, 255);
+  font-weight: bold;
+}
+
+#renameBtn input:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.4);
+  color: rgba(255, 255, 255, 0.8);
+}
+
+@media only screen and (max-width: 768px) {
+  /* .main-content {
+    margin-top: 50%;
+    margin-bottom: 50%;
+  } */
+}
+
+/* todo 입력박스 */
+
+.todo {
+  margin-top: 2rem;
+  width: 100%;
+}
+#todo-form input {
+  width: 30rem;
+  height: 3rem;
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: rgba(255, 255, 255, 0.24);
+  font-family: "Alkatra", cursive;
+  color: rgb(255, 255, 255);
+  border-radius: 25px;
+  transition: all ease 1s;
+}
+
+#todo-form input::placeholder {
+  color: rgba(255, 255, 255, 0.829);
+  font-weight: bold;
+}
+
+#todo-form input:focus {
+  outline: none;
+  background-color: rgba(219, 219, 219, 0.2);
+  animation: float 1.5s ease-in-out infinite forwards;
+}
+#todo-form input:focus::placeholder {
+  color: rgb(255, 255, 255, 0.4);
+}
+/* todo 체크박스 */
+#todo-list {
+  padding-left: 0;
+  font-size: 1.3rem;
+  margin: 0 auto;
+  width: 20rem;
+  max-height: 15rem;
+  overflow-y: scroll;
+  text-align: left;
+  margin-top: 1rem;
+}
+
+#todo-list::-webkit-scrollbar {
+  display: none;
+}
+#todo-list li {
+  padding-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+#todo-list input[type="checkbox"] {
+  width: 2rem;
+  height: 2rem;
+}
+
+#todo-list input[type="checkbox"]:hover {
+  cursor: pointer;
+}
+
+input:checked + label {
+  text-decoration: line-through;
+  color: rgb(197, 197, 197);
+}
+
+label {
+  width: 15rem;
+  font-weight: bold;
+  word-break: break-all;
+}
+
+#todo-list li button {
+  color: rgb(255, 255, 255, 0.6);
+  transition: all ease 0.5s;
+  background-color: rgb(255, 255, 255, 0.1);
+  border: none;
+}
+
+#todo-list li button:hover {
+  cursor: pointer;
+  color: rgb(255, 255, 255, 0.9);
+  background-color: rgb(255, 255, 255, 0.5);
+  box-shadow: rgb(0 0 0 / 10%) 0px 4px 16px 0px;
+  animation: float 0.5s ease-in-out infinite forwards;
+}
+
+#quote {
+  position: fixed;
+  bottom: 0;
+  margin: 30px;
+  width: 100%;
 }
