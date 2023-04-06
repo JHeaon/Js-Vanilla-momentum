@@ -89,7 +89,7 @@ Maybe you can mention me or this repo in the acknowledgements too
 
 ### 👀 Release
 
-- <a href = "shorturl.at/qBLZ1"> Cloudtype </a>
+- <a href = "shorturl.at/cJRXZ"> Cloudtype </a>
 
 ## 👋 Contributing
 
