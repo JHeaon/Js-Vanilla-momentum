@@ -89,7 +89,7 @@ Maybe you can mention me or this repo in the acknowledgements too
 
 ### 👀 Release
 
-- <a href = "shorturl.at/cJRXZ"> Cloudtype </a>
+- <a href = "https://web-momentum-nx562olfxpys80.sel3.cloudtype.app/"> Cloudtype </a>
 
 ## 👋 Contributing
 
