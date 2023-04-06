@@ -60,7 +60,6 @@ Maybe you can mention me or this repo in the acknowledgements too
     - [📷 Screenshots](#-screenshots)
     - [👾 Tech Stack](#-tech-stack)
   - [👋 Contributing](#-contributing)
-    - [📜 Code of Conduct](#-code-of-conduct)
   - [⚠️ License](#️-license)
   - [🤝 Contact](#-contact)
 
@@ -69,6 +68,7 @@ Maybe you can mention me or this repo in the acknowledgements too
 ## 🌟 About the Project
 
 <!-- Screenshots -->
+<br>
 
 ### 📷 Screenshots
 
@@ -77,35 +77,25 @@ Maybe you can mention me or this repo in the acknowledgements too
 </div>
 
 <!-- TechStack -->
+<br>
 
 ### 👾 Tech Stack
 
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li>Html</li>
-    <li>Css</li>
-    <li>VanilaJs</li>
-    <li>LocalStorage</li>
-  </ul>
-</details>
-
-</details>
+- Html
+- Css
+- VanilaJs
+- LocalStorage
 
 <!-- Contributing -->
+
+<br><br>
 
 ## 👋 Contributing
 
 <a href="https://github.com/JHeaon/Js-momentum/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=JHeaon/Js-momentum" />
 </a>
-
-<!-- Code of Conduct -->
-
-### 📜 Code of Conduct
-
-Please read the [Code of Conduct](https://github.com/JHeaon/Js-momentum/blob/master/CODE_OF_CONDUCT.md)
-
+<br><br>
 <!-- License -->
 
 ## ⚠️ License
@@ -114,10 +104,11 @@ Distributed under the no License. See LICENSE.txt for more information.
 
 <!-- Contact -->
 
+<br><br>
+
 ## 🤝 Contact
 
-JHeaon - [naver_blog](https://blog.naver.com/j3heawon) - j3heawon@naver.com
-
+JHeaon - [naver_blog](https://blog.naver.com/j3heawon) - j3heawon@naver.com <br>
 Project Link: [https://github.com/JHeaon/Js-momentum](https://github.com/JHeaon/Js-momentum)
 
 <!-- Acknowledgments -->
